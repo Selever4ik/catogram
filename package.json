@@ -1,0 +1,17 @@
+{
+  "name": "catogram",
+  "version": "2.0.0",
+  "description": "🐱 Кошачий мессенджер с уведомлениями и темами",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "express-session": "^1.17.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
